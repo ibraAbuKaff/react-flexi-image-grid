@@ -1,6 +1,6 @@
 {
   "name": "react-flexi-image-grid",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React js Flexible Image Grid View.",
   "main": "build/index.js",
   "peerDependencies": {
@@ -36,11 +36,11 @@
     "name": "Ibraheem Abu Kaff",
     "email": "eng.ibraheemabukaff@gmail.com"
   },
-  "homepage": "https://github.com/ibraAbuKaff/react-fancy-visa-card",
+  "homepage": "https://github.com/ibraAbuKaff/react-flexi-image-grid",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibraAbuKaff/react-fancy-visa-card"
+    "url": "https://github.com/ibraAbuKaff/react-flexi-image-grid"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
