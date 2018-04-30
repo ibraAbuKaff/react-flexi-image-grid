@@ -108,4 +108,4 @@ export default App;
 ```
 
 
-2- `numberOfColumns` it can 1, 2 ,or 4 
+2- `numberOfColumns` it can be 1, 2 ,or 4 
