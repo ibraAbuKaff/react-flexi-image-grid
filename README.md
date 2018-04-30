@@ -13,9 +13,11 @@ yarn add react-flexi-image-grid
 <h2>Examples:</h2>
 
  <h2>4 Columns:</h2>
+ 
 ![4 columns pics](./example-pics/ss1.png)
 
  <h2>2 Columns:</h2>
+ 
 ![2 columns pics](./example-pics/ss3.png)
 
 
