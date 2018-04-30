@@ -1,6 +1,6 @@
 {
   "name": "react-flexi-image-grid",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "React js Flexible Image Grid View.",
   "main": "build/index.js",
   "peerDependencies": {

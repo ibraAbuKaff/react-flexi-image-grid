@@ -24,6 +24,7 @@ yarn add react-flexi-image-grid
 <h1>How to use it ? </h1>
 
 ```
+
 import React, {Component} from "react";
 import {FlexiImageGrid} from "react-flexi-image-grid";
 
@@ -45,79 +46,34 @@ class App extends Component {
                     images={[
 
                         {
-
-                            src: "https://www.w3schools.com/w3images/wedding.jpg",
+                            src: "https://images.wallpaperscraft.com/image/girl_back_dress_120695_1920x1080.jpg",
                             className: "img1",
                             id: "idImg1",
-                            height: "",
+                            height: "200px",
                             alt: "here 1",
-
                         },
 
                         {
-                            src: "https://www.w3schools.com/w3images/wedding.jpg",
+                            src: "https://images.wallpaperscraft.com/image/auto_sports_car_red_120693_1920x1080.jpg",
                             className: "img2",
-                            height: "150px",
+                            height: "",
 
                         },
 
                         {
-                            src: "https://www.w3schools.com/w3images/wedding.jpg",
-                            className: "img3"
-                        },
-
-                        {
-                            src: "https://www.w3schools.com/w3images/rocks.jpg",
+                            src: "https://images.wallpaperscraft.com/image/auto_side_view_sports_car_red_118923_1920x1080.jpg",
                             className: "img4"
                         },
 
                         {
-                            src: "https://www.w3schools.com/w3images/rocks.jpg",
+                            src: "https://images.wallpaperscraft.com/image/auto_side_view_sports_car_117332_1920x1080.jpg",
                             className: "img5"
                         }
                         ,
                         {
-                            src: "https://www.w3schools.com/w3images/rocks.jpg",
+                            src: "https://i.pinimg.com/originals/6f/55/26/6f5526229f0b3f18e1cf64bd4eb5a62f.jpg",
                             className: "img6"
-                        },
-                        {
-                            src: "https://www.w3schools.com/w3images/mountainskies.jpg",
-                            className: "img7"
-                        },
-                        {
-                            src: "https://www.w3schools.com/w3images/nature.jpg",
-                            className: "img8"
-                        },
-                        {
-                            src: "https://www.w3schools.com/w3images/nature.jpg",
-                            className: "img9"
-
-                        },
-                        {
-                            src: "https://www.w3schools.com/w3images/nature.jpg",
-                            className: "img10"
-                        },
-                        {
-                            src: "https://www.w3schools.com/w3images/mist.jpg",
-                            className: "img11"
-                        },
-
-                        {
-                            src: "https://www.w3schools.com/w3images/nature.jpg",
-                            className: "img12"
-                        },
-                        {
-                            src: "https://www.w3schools.com/w3images/nature.jpg",
-                            className: "img13"
-                        },
-                        {
-                            src: "https://www.w3schools.com/w3images/nature.jpg",
-                            className: "img14"
-                        },
-                        {
-                            src: "https://www.w3schools.com/w3images/nature.jpg",
-                            className: "img15"
-                        },
+                        }
 
                     ]}
 
@@ -133,9 +89,23 @@ class App extends Component {
 
 export default App;
 
+
+```
+
+<h2>Expected Props:</h2>
+
+1- `images` , it's an array of objects , each object can have the following structure:
+```
+{
+
+	src: "https://www.w3schools.com/w3images/wedding.jpg",
+	className: "img1",
+	id: "idImg1",
+	height: "200px",
+	alt: "here 1",
+
+   }
 ```
 
 
-
-
-
+2- `numberOfColumns` it can 1, 2 ,or 4 
